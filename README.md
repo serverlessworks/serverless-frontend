@@ -1,5 +1,5 @@
 # Serverless Frontend
-CloudFront - S3 - React - Typescript - CDK
+AWS CloudFront - AWS S3 - React - Typescript - AWS CDK
 
 This is a blank project for CDK development with TypeScript.
 
