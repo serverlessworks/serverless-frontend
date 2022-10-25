@@ -1,4 +1,5 @@
-# Welcome to your CDK TypeScript project
+# Serverless Frontend
+CloudFront - S3 - React - Typescript - CDK
 
 This is a blank project for CDK development with TypeScript.
 
