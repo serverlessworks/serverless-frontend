@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "module": "commonjs",
+    "jsx": "react",
+    "module": "esnext",
+    "target": "ESNext",
     "lib": [
-      "es2018"
+        "dom",
+        "dom.iterable",
+        "esnext"
     ],
     "declaration": true,
     "strict": true,
@@ -15,6 +18,8 @@
     "noUnusedParameters": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": false,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
     "inlineSourceMap": true,
     "inlineSources": true,
     "experimentalDecorators": true,
@@ -23,6 +28,9 @@
       "./node_modules/@types"
     ]
   },
+  "include": [
+    "src/**/*" // *** The files TypeScript should type check ***
+  ],
   "exclude": [
     "node_modules",
     "cdk.out"

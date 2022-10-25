@@ -1,5 +1,8 @@
 *.js
+*.js.map
+!bs-config.js
 !jest.config.js
+!esbuild.config.js
 *.d.ts
 node_modules
 

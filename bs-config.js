@@ -1,0 +1,8 @@
+module.exports = {
+    server: {
+        baseDir: './public',
+        routes: {
+            '/node_modules': 'node_modules'
+        }
+    }
+}
